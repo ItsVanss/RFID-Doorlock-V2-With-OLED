@@ -1,0 +1,24 @@
+--ID-RC522--
+3.3v->3.3v
+RST->9
+GND->GND
+IRQ-> -
+MISO->12
+MOSI->11
+SCK->13
+SDA->10
+
+--SERVO--
+K->3
+M->5V
+C->GND
+
+--BUZZER--
+(+)->8
+(-)->GND
+
+--OLED I2C--
+GND->GND
+VCC->5V/3.3V
+SCL->A5
+SDA->A4
